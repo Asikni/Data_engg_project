@@ -1,10 +1,10 @@
 # Data_engineering_project
 This repository contains all the resources for the case study
-# Laptop Price Comparison and Recommender System
-This project focuses on collecting laptop data from Flipkart and Amazon, comprising a total of 1000 records. The collected data is used for two main purposes: price comparison and building a recommender system for laptops.
+# Laptop Price Check & Smart Recommendations
+This project focuses on providing customers with a comprehensive platform for checking and comparing laptop prices across different online retailers (in this case flipkart and amazon). In addition to price comparison, the system offers intelligent recommendations based on customer's preferences and requirements.
 
 ## Project Overview
-The goal of this project is to provide users with a comprehensive comparison of laptop prices and offer personalized recommendations based on their preferences. By leveraging the collected data, users can make informed decisions about purchasing laptops at the best available prices.
+The goal of this project is to build a laptop price check and recommendation system that assists customers in making informed purchasing decisions. The system leverages an ETL (Extract, Transform, Load) pipeline to collect laptop data from Flipkart and Amazon. The extracted data is then transformed and loaded into a structured format for further analysis.
 
 ## Features
 **Price Comparison:** The project analyzes laptop data from Flipkart and Amazon to identify price variations for the same laptop models. Users can compare prices and find the best deals between the two platforms.
@@ -14,17 +14,20 @@ The goal of this project is to provide users with a comprehensive comparison of 
 ## Usage
 To use the price comparison and recommender system:
 
-1 - Collect the laptop data from Flipkart and Amazon.
+1) Extract Data: Implement an ETL pipeline to collect laptop data from Flipkart and Amazon. This involves extracting the data, transforming it into a unified format, and loading it into a structured storage solution (such as a CSV file).
 
-2 - Store the data in a structured format, such as a CSV or a database.
+2) Data Storage: Configure the system to access the stored data and ensure that it can be quickly queried for tasks like pricing comparison and recommendation..
 
-3 - Implement the necessary algorithms and functionalities to perform price comparison and recommendation tasks.
+3) Price Comparison: Develop the necessary functionality to compare laptop prices across different retailers. Provide a user interface where customers can search for specific laptop models and view price comparisons.
 
-4 - Provide a user interface where users can search for specific laptop models, view price comparisons, and receive personalized recommendations.
+4) Smart Recommendations: Implement algorithms that take customer preferences, budget, and desired specifications into account to generate personalized recommendations. Present these recommendations to customers through the user interface.
 
 ## Dependencies
+
 The following dependencies are required to run the project:
 
-Python 3.x
+Python 3.0
+
 Data storage solution (CSV, database, etc.)
+
 Libraries: numpy, pandas,beautifulsoup etc.

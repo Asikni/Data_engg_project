@@ -15,8 +15,11 @@ The goal of this project is to provide users with a comprehensive comparison of 
 To use the price comparison and recommender system:
 
 1 - Collect the laptop data from Flipkart and Amazon.
+
 2 - Store the data in a structured format, such as a CSV or a database.
+
 3 - Implement the necessary algorithms and functionalities to perform price comparison and recommendation tasks.
+
 4 - Provide a user interface where users can search for specific laptop models, view price comparisons, and receive personalized recommendations.
 
 ## Dependencies
